@@ -112,11 +112,11 @@ repositories:
     url: https://github.com/autowarefoundation/ros2_socketcan
     version: feat/continental_fd
   # sensor_kit
-  sensor_kit/sample_sensor_kit_launch:
+  sensor_kit/d05h_sensor_kit_launch:
     type: git
-    url: https://github.com/autowarefoundation/sample_sensor_kit_launch.git
+    url: https://github.com/yaoyaopan0/d05h_sensor_kit_launch.git
     version: main
-  sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
+  sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into d05h_sensor_kit_launch
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
     version: main
@@ -129,9 +129,9 @@ repositories:
     url: https://github.com/autowarefoundation/single_lidar_sensor_kit_launch.git
     version: main
   # vehicle
-  vehicle/sample_vehicle_launch:
+  vehicle/d05h_vehicle_launch:
     type: git
-    url: https://github.com/autowarefoundation/sample_vehicle_launch.git
+    url: https://github.com/yaoyaopan0/d05h_vehicle_launch.git
     version: main
   vehicle/awsim_labs_vehicle_launch:
     type: git
